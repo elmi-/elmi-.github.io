@@ -1,0 +1,68 @@
+#main {
+  display: flex;
+  background: url("../img/outdoor.jpg") top center no-repeat #bababa;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: #ffffff
+}
+
+#main-sidebar {
+  color: #ffffff;
+  background: rgb(8,42,77, 0.8);
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  font-size: 14px;
+}
+
+#main-content {
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  position: absolute;
+  padding: 20px;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 60%)
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.avatar a {
+  text-align: center;
+}
+
+.avatar img {
+  height: 150px;
+  width: 150px;
+}
+
+.main-social {
+  padding: 5%;
+}
+
+.main-social h5 {
+  margin: 0;
+}
+
+.main-social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em
+}
+
+.main-social ul li {
+  padding: 5%;
+}
+
+.main-social ul li a {
+  color: rgba(247, 241, 227,0.8);
+}
