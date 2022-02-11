@@ -28,7 +28,8 @@
   margin-top: 145px;
   position: absolute;
   padding: 20px;
-  text-shadow: 1px 1px 2px rgb(0 0 0 / 60%)
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
+  padding-top: 100px;
 }
 
 .header-nav {

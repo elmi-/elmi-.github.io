@@ -156,3 +156,12 @@ body > div  {
   margin: 0; 
   transition: all 0.5s linear;
 }
+
+.highlight {
+  background: rgb(8,42,77, 0.75);
+  padding: 2px 5px;
+}
+
+.sub-highlight {
+  border-bottom: 3px solid rgb(8,42,77, 0.75);;
+}
