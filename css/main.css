@@ -60,6 +60,9 @@ p code {
   border-right-width: 0.5rem;
   color: #EB5757;
 }
+i.small {
+  color: teal;
+}
 ul.side-nav li {
   padding: 0;
 }
