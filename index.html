@@ -2,27 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Abdi Elmi</title>
+    <title>Abdi Elmi - Full-Stack Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/overrides.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f5f56a0c91.js" crossorigin="anonymous"></script>
   </head>
-<body>
-  <section id="main">
-    <aside id="main-nav">
-      <div class="header-nav">
-        <a href="/">
-          <h1>Abdi Elmi</h1>
-          <h2>Full Stack Developer</h2>
-        </a>
-      </div>
-      <div class="main-social">
+  <body>
+<!-- Navigation Menu-->
+<nav class="hide-on-small-only">
+  <ul class="side-nav fixed section table-of-contents">
+    <li class="logo">
+      <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
+        <h1>
+          Abdi Elmi<span class="light">Full Stack Developer</span>
+        </h1>
+      </a>
         <!-- <h5>contact & socials</h5> -->
-        <ul>
+        <ul class="main-social">
           <li>
             <a href="mailto:abdi.elmi@rocketmail.com" title="email me!">  
               <i class="fa-solid fa-envelope"></i>
@@ -39,24 +41,146 @@
             </a>
           </li>
           <li>
-            <a href="docs/AbdiElmi.pdf" target="_blank" title="download my resume!">  
+            <a href="docs/AbdiElmi.pdf" target="_blank" title="open my resume!">  
               <i class="fa-solid fa-file"></i>
             </a>
           </li>
         </ul>
-      </div>
-      <i class="fa fa-bars main-nav-mobile"></i>
-      <ul class="main-nav-mobile-menu">
-        <li>Projects</li>
-        <li>Resume</li>
-        <li>Contact</li>
-      </ul>
-    </aside>
-    <main id="main-content">
-      <h1>hello world, <br />I'm Abdi Elmi </h1>
-      <h3>a <span class="highlight">full-stack developer</span>,<br /> based in <span class="sub-highlight">Vancouver</span>
-      </h3>
-    </main>
+
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text active"><i class="mdi-social-person small"></i><span>About</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="open my resume!" href="docs/AbdiElmi.pdf" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a>
+    </li>
+  </ul>
+</nav>
+<nav class="hide-on-large only trigger z-depth-1">
+  <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+  <div class="name-title">
+    <a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Abdi Elmi</a><span class="brown-text light">Full Stack Developer</span>
+  </div>
+  <ul class="main-social">
+    <li>
+      <a href="mailto:abdi.elmi@rocketmail.com" title="email me!">  
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/a-elmi/" target="_blank" title="LinkedIn">  
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/elmi-" target="_blank" title="GitHub">  
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </li>
+    <li>
+      <a href="docs/AbdiElmi.pdf" target="_blank" title="open my resume!">  
+        <i class="fa-solid fa-file"></i>
+      </a>
+    </li>
+  </ul>
+
+</nav>
+<nav class="hide-on-large only">
+  <ul id="slide-out" class="side-nav" style="width: 190px; left: -200px;">
+    <li class="bold">
+      <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text active"><i class="mdi-social-person small"></i><span>About</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a>
+    </li>
+    <li class="bold">
+      <a aria-label="open my resume!" href="docs/AbdiElmi.pdf" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a>
+    </li>
+  </ul>
+</nav>
+<!-- Main Content-->
+<main>
+  <section id="intro" class="section scrollspy full-height">
+    <div class="overlay"></div>
+    <div class="container">
+      <h1>hello world,
+        <br />
+        I'm Abdi Elmi
+      </h1>
+      <h2>
+        a <span class="teal">full-stack developer</span>,
+        <br />
+        based in <span class="underline">Vancouver</span>.
+      </h2>
+    </div>
   </section>
+  <section id="about" class="section scrollspy">
+    <h3 class="page-title white-text teal">About</h3>
+    <div class="container flow-text">
+      <p>About text blah blah blah</p>
+    </div>
+  </section>
+  <section id="experience" class="section scrollspy">
+    <h3 class="page-title white-text teal">Experience</h3>
+    <div class="container">
+      <div class="row">
+          <p>Experience's!!!</p>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="section scrollspy">
+    <h3 class="page-title white-text teal">Projects</h3>
+    <div class="container">
+      <div class="row">
+          <p>Projects!!!</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section scrollspy full-height">
+    <h3 class="page-title white-text teal">Contact</h3>
+    <div class="container">
+      <p>
+        <a aria-label="Email Abdi Elmi" href="mailto:abdi.elmi@rocketmail.com" data-position="top" data-tooltip="email me!" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-envelope"></i></a><a aria-label="Email Abdi Elmi" href="mailto:abdi.elmi@rocketmail.com" class="hoverline">abdi.elmi@rocketmail.com</a>
+      </p>
+      <p>
+        <a aria-label="GitHub" href="http://github.com/elmi-" target="_blank" data-position="top" data-tooltip="GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a><a aria-label="Github" target="_blank" href="http://github.com/elmi-" class="hoverline">github.com/elmi-</a>
+      </p>
+      <p>
+        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/a-elmi/" target="_blank" data-position="top" data-tooltip="LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i></a><a aria-label="LinkedIn" href="https://www.linkedin.com/in/a-elmi/" target="_blank" class="hoverline">linkedin.com/in/a-elmi/</a>
+      </p>
+    </div>
+  </section>
+</main>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
+      });
+    </script>
 </body>
 </html>
