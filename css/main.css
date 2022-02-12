@@ -93,7 +93,8 @@ ul.side-nav.fixed li.logo a {
   line-height: 100%;
 }
 ul.table-of-contents li:not(.logo) a.active,
-ul.table-of-contents li:not(.logo) a:hover {
+ul.table-of-contents li:not(.logo) a:hover
+ul.table-of-contents li:not(.main-social) a:hover {
   background-color: #fafafa;
   border-left: 3px solid;
 }
@@ -141,12 +142,10 @@ h3 {
   width: 100%;
   line-height: normal;
 }
-
 .main-social li a {
   /* color: rgba(247, 241, 227,0.8); */
   color: teal;
 }
-
 #intro.section {
   background: url(../img/outdoor.jpg) no-repeat top
     center/cover;
