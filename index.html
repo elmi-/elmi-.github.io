@@ -60,11 +60,9 @@
     <li class="bold">
       <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a>
     </li>
-    <!--
     <li class="bold">
       <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a>
     </li> 
-    -->
     <li class="bold">
       <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a>
     </li>
@@ -110,11 +108,9 @@
     <li class="bold">
       <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a>
     </li>
-    <!--
     <li class="bold">
       <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a>
     </li> 
-    -->
     <li class="bold">
       <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a>
     </li>
@@ -280,16 +276,98 @@
       <!-- experience row end -->
     </div>
   </section>
-  <!--
+  <!-- projects row start -->
   <section id="projects" class="section scrollspy">
     <h3 class="page-title white-text teal">Projects</h3>
     <div class="container">
-      <div class="row">
-          <p>Projects!!!</p>
+      <div class="row"> 
+        <!-- The Office Quiz start -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="screenshot The Office Quiz" src="/img/office-quiz.png" class="activator">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">The Office Quiz<i class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                The Office Quiz is a full-stack project built on a React frontend and Node backend using <a href="https://www.officeapi.dev/" target="_blank">officeapi.dev API</a>
+                <br />
+              </p>
+            </div>
+            <div class="card-reveal" style="transform: translateY(0px);">
+              <span class="card-title brown-text">highlighs<i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><strong>Node/Express</strong> backend</li>
+                <li><strong>React</strong> frontend</li>
+                <li>custom CSS</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="visit The Office Quiz" href="https://the-office-quiz.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown"><i class="fa fa-external-link"></i></a><a aria-label="The Qffice Quiz GitHub repo" href="https://github.com/elmi-/office-quiz" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- The Office Quiz end -->
+        <!-- Fantasy Radar start -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="screenshot Fantasy Radar" src="/img/no-screenshot.png" class="activator" style="height: 100%">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Fantasy Radar<i class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Fantasy sports web app built using Ruby on Rails that sends text notifications to users to stay up to date on specific player news/updates
+              </p>
+            </div>
+            <div class="card-reveal" style="transform: translateY(0px);">
+              <span class="card-title brown-text">highlighs<i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><strong>Ruby on Rails</strong> backend</li>
+                <li><strong>PostgresSQL</strong> database</li>
+                <li>Bootstrap CSS</li>
+                <li>Twilio Api</li>
+                <li>data scraped from <a href="https://www.basketball-reference.com/" target="_blank">Basketball-Reference</a></li>
+              </ul>
+              <div class="card-action">
+                <!-- <a aria-label="visit The Office Quiz" href="https://the-office-quiz.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown"><i class="fa fa-external-link"></i></a> -->
+                <a aria-label="Fantasy Radar GitHub repo" href="https://github.com/elmi-/FantasyRadar" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fantasy Radar end -->
+        <!-- Scheduler start -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="screenshot Scheduler" src="/img/scheduler.png" class="activator" style="height: 100%">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Scheduler<i class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Scheduling application used for booking interviews, built with React. Data is persisted by an API server using a PostgreSQL database.
+              </p>
+            </div>
+            <div class="card-reveal" style="transform: translateY(0px);">
+              <span class="card-title brown-text">highlighs<i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><strong>React</strong> frontend</li>
+                <li><strong>PostgresSQL</strong> database</li>
+                <li>Testing frameworks used include: <strong>Jest</strong>, <strong>Cypress</strong> and <strong>Storybook</strong></li>
+              </ul>
+              <div class="card-action">
+                <!-- <a aria-label="visit The Office Quiz" href="https://the-office-quiz.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown"><i class="fa fa-external-link"></i></a> -->
+                <a aria-label="Scheduler GitHub repo" href="https://github.com/elmi-/scheduler" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Scheduler end -->
       </div>
     </div>
   </section>
-   -->
+  <!-- projects row end -->
   <section id="contact" class="section scrollspy full-height">
     <h3 class="page-title white-text teal">Contact</h3>
     <div class="container">
