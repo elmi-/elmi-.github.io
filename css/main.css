@@ -198,7 +198,7 @@ h3 {
 }
 .card .role {
   font-size: 1.25rem;
-  text-align: right;
+  /* text-align: right; */
 }
 .card li a {
   margin-right: 0;
