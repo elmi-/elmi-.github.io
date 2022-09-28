@@ -469,17 +469,18 @@ nav a.button-collapse {
 .more-info-tag {
   background-color: #f6e58d;
   color: #fff;
-  top: 40Px;
+  top: 80%;
   z-index: 999;
   transform: rotate(60deg);
+  left: 10rem;
 }
 .tape {
-  background-color: hsla(0,0%,100%,.2);
-  box-shadow: inset 0 0 1em .5em hsla(0,0%,100%,.1);
-  height: 3em;
+  background-color: hsla(0,0%,50%,.2);
+  box-shadow: inset 0 0 1em 0.5em hsl(0deg 0% 100% / 10%);
   position: absolute;
-  transform: rotate(40deg);
-  width: 9em;
+  transform: rotate(-10deg);
+  text-align: center;
+  width: 15em;
   -webkit-filter: drop-shadow(0 1px 1px hsla(0,0%,0%,.3));
 }
 .tape:after,
