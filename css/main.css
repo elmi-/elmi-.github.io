@@ -1,9 +1,33 @@
-body {
-  color: #333;
-  font-size: 16px;
+/* theme changer start */
+:root {
+  --accent-color: #008073;
 }
+.theme-switcher {
+  margin: 30px;
+}
+/* .theme-switcher h5 {
+    color: #444;
+    font-size: 1rem;
+    margin: 0;
+    line-height: 0;
+} */
+ul.side-nav .theme-switcher:hover {
+  background-color: #fff!important;
+}
+.theme-btn {
+  border: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 4px;
+}
+.green { background: #008073!important; }
+.blue { background: #2980b9!important; }
+.red { background: #c0392b!important; }
+/* theme changer end */
 a {
-  color: #009688;
+  color: var(--accent-color);
 }
 blockquote {
   border-left: 5px solid #795548;
@@ -61,7 +85,7 @@ p code {
   color: #EB5757;
 }
 i.small {
-  color: teal;
+  color: var(--accent-color);
 }
 ul.side-nav li {
   padding: 0;
@@ -144,7 +168,7 @@ h3 {
 }
 .main-social li a {
   /* color: rgba(247, 241, 227,0.8); */
-  color: teal;
+  color: var(--accent-color);;
 }
 #intro.section {
   background: url(../img/outdoor.jpg) no-repeat top
@@ -175,7 +199,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #009688;
+  border-bottom: 5px solid var(--accent-color);
 }
 #intro.section .teal {
   padding: 0 10px;
@@ -269,7 +293,7 @@ a.hoverline {
   -webkit-transition: 0.25s all;
 }
 a.hoverline:hover {
-  border-bottom: 3px solid #009688 !important;
+  border-bottom: 3px solid var(--accent-color)!important;
 }
 #skills .card.large {
   height: 360px;
@@ -329,10 +353,10 @@ small {
   color: #666 !important;
 }
 .teal-text {
-  color: #008073 !important;
+  color: var(--accent-color)!important;
 }
 .teal {
-  background-color: #008073 !important;
+  background: var(--accent-color)!important;
 }
 
 nav a.button-collapse {
@@ -370,7 +394,7 @@ nav a.button-collapse {
   }
   nav a.button-collapse,
   nav a.button-collapse i {
-    color: #009688;
+    color: var(--accent-color);
     /* height: 56px; */
     line-height: 75px;
   }
