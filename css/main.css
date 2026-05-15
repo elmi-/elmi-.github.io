@@ -28,6 +28,7 @@ ul.side-nav .theme-switcher:hover {
 /* theme changer end */
 a {
   color: var(--accent-color);
+  transition: background 0.3s ease, color 0.3s ease;
 }
 blockquote {
   border-left: 5px solid #795548;
@@ -354,9 +355,11 @@ small {
 }
 .teal-text {
   color: var(--accent-color)!important;
+  transition: background 1s ease, color 1s ease;
 }
 .teal {
   background: var(--accent-color)!important;
+  transition: background 1s ease, color 1s ease;
 }
 
 nav a.button-collapse {
