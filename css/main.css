@@ -532,3 +532,29 @@ nav a.button-collapse {
   background-position: 100% 100%;
   right: -.2em;
 }
+
+/* Floating theme picker */
+.theme-switcher {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+  padding: 10px!important;
+  border-radius: 999px;
+  background: #ecf0f1;
+  backdrop-filter: blur(10px);
+}
+
+/* Existing buttons */
+.theme-switcher button {
+  border: 2px solid transparent;
+  border-radius: 999px;
+  transition: border-color .2s ease;
+}
+
+/* Current theme */
+.theme-switcher button.active {
+  border-color: #2c3e50;
+}
