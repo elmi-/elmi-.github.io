@@ -39,3 +39,12 @@ window.onload = () => {
 
   setAccent(savedAccent);
 };
+
+const themeButtons = document.querySelectorAll('.theme-switcher button');
+
+themeButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    themeButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
