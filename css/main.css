@@ -175,6 +175,7 @@ h3 {
   background: url(../img/outdoor.jpg) no-repeat top
     center/cover;
   position: relative;
+  transition: background-image 0.3s ease;
 }
 #intro.section .container {
   color: white;
